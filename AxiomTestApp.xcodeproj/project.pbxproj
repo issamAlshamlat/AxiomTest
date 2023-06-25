@@ -41,6 +41,8 @@
 		E7CBBEA52A485D8900F9155D /* WeatherDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CBBEA42A485D8900F9155D /* WeatherDetailsPresenter.swift */; };
 		E7CBBEA72A48893400F9155D /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CBBEA62A48893400F9155D /* Double+Extension.swift */; };
 		E7CBBEA92A48934300F9155D /* String+Extesnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CBBEA82A48934300F9155D /* String+Extesnion.swift */; };
+		E7CBBEB42A48A46D00F9155D /* WeatherDB+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CBBEB22A48A46C00F9155D /* WeatherDB+CoreDataProperties.swift */; };
+		E7CBBEB52A48A46D00F9155D /* WeatherDB+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CBBEB32A48A46D00F9155D /* WeatherDB+CoreDataClass.swift */; };
 		E7E36EFA2A46F78400EDB225 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E36EF92A46F78400EDB225 /* CoreDataManager.swift */; };
 		E7E36EFC2A46F7CA00EDB225 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E36EFB2A46F7CA00EDB225 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
@@ -95,6 +97,8 @@
 		E7CBBEA42A485D8900F9155D /* WeatherDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailsPresenter.swift; sourceTree = "<group>"; };
 		E7CBBEA62A48893400F9155D /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		E7CBBEA82A48934300F9155D /* String+Extesnion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extesnion.swift"; sourceTree = "<group>"; };
+		E7CBBEB22A48A46C00F9155D /* WeatherDB+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WeatherDB+CoreDataProperties.swift"; path = "/Users/mhdbaher/Desktop/AxiomTestApp/AxiomTestApp/CoreData/WeatherDB+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		E7CBBEB32A48A46D00F9155D /* WeatherDB+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WeatherDB+CoreDataClass.swift"; path = "/Users/mhdbaher/Desktop/AxiomTestApp/AxiomTestApp/CoreData/WeatherDB+CoreDataClass.swift"; sourceTree = "<absolute>"; };
 		E7E36EF92A46F78400EDB225 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		E7E36EFB2A46F7CA00EDB225 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -206,6 +210,8 @@
 			children = (
 				E7B7DEB72A46E080001C09E0 /* AxiomDB.xcdatamodeld */,
 				E7E36EF92A46F78400EDB225 /* CoreDataManager.swift */,
+				E7CBBEB32A48A46D00F9155D /* WeatherDB+CoreDataClass.swift */,
+				E7CBBEB22A48A46C00F9155D /* WeatherDB+CoreDataProperties.swift */,
 				E7E36EFB2A46F7CA00EDB225 /* CoreDataStack.swift */,
 			);
 			path = CoreData;
@@ -462,6 +468,7 @@
 				E7CBBE972A483DCB00F9155D /* WeatherDetailsViewController.swift in Sources */,
 				E7CBBE772A47344C00F9155D /* MAUserDefaults.swift in Sources */,
 				E7B246512A4638D900F0F488 /* MAStrings.swift in Sources */,
+				E7CBBEB52A48A46D00F9155D /* WeatherDB+CoreDataClass.swift in Sources */,
 				E7B2463A2A4624ED00F0F488 /* PullToRefreshManager.swift in Sources */,
 				E7CBBE9D2A484D2B00F9155D /* UIColor+Extension.swift in Sources */,
 				E7CBBEA32A48579200F9155D /* WeatherDetailCollectionViewCell.swift in Sources */,
@@ -475,6 +482,7 @@
 				E7B246382A4623E800F0F488 /* LoaderManager.swift in Sources */,
 				E7B2462D2A46085800F0F488 /* WeatherResponseModel.swift in Sources */,
 				E75AB1E22A45F80300169B3F /* SceneDelegate.swift in Sources */,
+				E7CBBEB42A48A46D00F9155D /* WeatherDB+CoreDataProperties.swift in Sources */,
 				E7CBBE9B2A48490200F9155D /* UIView + Extension.swift in Sources */,
 				E7CBBEA92A48934300F9155D /* String+Extesnion.swift in Sources */,
 				E7CBBE7D2A479D4300F9155D /* WeatherPresenterDependencyContainer.swift in Sources */,

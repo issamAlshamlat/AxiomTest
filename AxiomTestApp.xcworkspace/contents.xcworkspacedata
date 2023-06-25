@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:WeatherDB+CoreDataClass.swift">
+      location = "group:/Users/mhdbaher/Desktop/AxiomTestApp/AxiomTestApp/CoreData/WeatherDB+CoreDataClass.swift">
    </FileRef>
    <FileRef
-      location = "group:WeatherDB+CoreDataProperties.swift">
+      location = "group:/Users/mhdbaher/Desktop/AxiomTestApp/AxiomTestApp/CoreData/WeatherDB+CoreDataProperties.swift">
    </FileRef>
    <FileRef
       location = "group:AxiomTestApp.xcodeproj">
