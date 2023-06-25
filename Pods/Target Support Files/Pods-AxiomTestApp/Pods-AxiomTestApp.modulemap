@@ -1,0 +1,6 @@
+framework module Pods_AxiomTestApp {
+  umbrella header "Pods-AxiomTestApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
